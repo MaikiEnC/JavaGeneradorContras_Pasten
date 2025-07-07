@@ -21,7 +21,7 @@ public class GeneradorContras {
         
         String opc ="";
         
-        while(opc != "2"){
+        while(!"2".equals(opc){
             System.out.println("Programa Generador de contras");
             System.out.println("Seleccione una opccion");
             System.out.println("[1] Generar contras");
